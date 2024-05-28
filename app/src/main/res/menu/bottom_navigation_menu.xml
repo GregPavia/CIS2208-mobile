@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home -->
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/home_icon" />
+
+    <!-- Exercise -->
+    <item
+        android:id="@+id/menu_exercise"
+        android:title="Exercise"
+        android:icon="@drawable/exercise_icon" />
+
+    <!-- BMI -->
+    <item
+        android:id="@+id/menu_bmi"
+        android:title="BMI"
+        android:icon="@drawable/bmi_icon" />
+
+    <!-- Profile -->
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon" />
+
+</menu>

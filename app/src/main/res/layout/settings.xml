@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/back_button"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/profilePicture"
+            android:layout_width="100dp"
+            android:layout_height="92dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/profile_icon"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/fullNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profilePicture"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_edit_text_background"
+            android:hint="Full Name"
+            android:padding="15dp"
+            android:textColor="#212121"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fullNameEditText"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_edit_text_background"
+            android:hint="Phone"
+            android:padding="15dp"
+            android:textColor="#212121"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phoneEditText"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/rounded_edit_text_background"
+            android:hint="Email"
+            android:padding="15dp"
+            android:textColor="#212121"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ButtonSection"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailEditText"
+            android:orientation="horizontal"
+            android:layout_marginTop="35dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/saveButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141533"
+                android:text="Save"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAllCaps="false"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logoutButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141533"
+                android:text="Log Out"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/goalsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ButtonSection"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rounded_edit_text_background"
+            android:hint="Goals"
+            android:padding="15dp"
+            android:textColor="#212121"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ButtonGoalsSection"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/goalsEditText"
+            android:orientation="horizontal"
+            android:layout_marginTop="35dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/saveGoalsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141533"
+                android:text="Save Goals"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAllCaps="false"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/clearGoalsButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#141533"
+                android:text="Clear Goals"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
