@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">474771697659</string>
+    <string name="google_api_key" translatable="false">AIzaSyB1OOHfGOa6H9SRrmJlzUHO1-AfSeNSMAo</string>
+    <string name="google_app_id" translatable="false">1:474771697659:android:5d0fbb71d20acfdecc255e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB1OOHfGOa6H9SRrmJlzUHO1-AfSeNSMAo</string>
+    <string name="google_storage_bucket" translatable="false">gymapp-e0bca.appspot.com</string>
+    <string name="project_id" translatable="false">gymapp-e0bca</string>
+</resources>
